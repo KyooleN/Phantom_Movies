@@ -1,0 +1,451 @@
+body {
+    background-color: rgb(139, 18, 18) !important;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+/* início carrossel */
+iframe {
+    width: 100%;
+}
+
+
+.carrossel_area,
+.filmes_area {
+    background-color: rgb(235, 25, 25);
+    color: white;
+    border-radius: 30px;
+    transition: 0.25s;
+    padding: 20px;
+    width: 100%;
+    font-size: x-large;
+
+}
+
+.carousel-inner {
+    padding: 5%;
+}
+
+
+/* fim carrossel*/
+
+.lançamentos {
+
+    padding: 30px;
+    font-size: 300%;
+    color: black;
+    text-transform: uppercase;
+    width: 100%;
+    animation: animate 3s linear infinite;
+    text-align: center;
+
+}
+
+strong {
+    padding: 10px;
+}
+
+
+
+#destaque {
+    animation: animate 3s linear infinite;
+    color: black;
+
+    text-transform: uppercase;
+    font-size: 300%;
+
+}
+
+.destaques {
+
+    justify-content: space-between;
+
+
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/*ULTIMAS AVALIAÇÕES */
+
+
+
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #108d6f;
+    border-color: #108d6f;
+    box-shadow: none;
+    outline: none;
+}
+
+
+
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    padding: 30px;
+    position: relative;
+    font-size: 300%;
+    color: black;
+    text-transform: uppercase;
+    width: 100%;
+    outline: none;
+    animation: animate 3s linear infinite;
+}
+
+#team .card {
+    border: none;
+    background-color: #c00f0f;
+    border-radius: 30px;
+    color: rgb(255, 255, 255)
+}
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.frontside {
+    position: relative;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.frontside .card,
+.backside .card {
+    min-height: 312px;
+}
+
+.backside .card a {
+    font-size: 18px;
+    color: #00ffff !important;
+}
+
+.frontside .card .card-title,
+.backside .card .card-title {
+    color: #000000 !important;
+}
+
+.frontside .card .card-body img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.stars {
+    color: yellow;
+    font-size: 220%;
+}
+
+.making {
+    background-color: rgb(235, 25, 25);
+    color: white;
+    border-radius: 30px;
+    transition: 0.25s;
+}
+
+.making:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(174, 0, 255);
+
+
+}
+
+
+.tag {
+    display: inline-block;
+    color: white;
+    border-radius: 24px;
+    text-align: center;
+    background-color: rgb(235, 25, 25);
+    border: 0;
+    border: 2px solid;
+    padding: 1% 2%;
+    transition: 0.25s
+}
+
+.tag:hover {
+    color: rgb(17, 69, 182);
+    background-color: #000000;
+    border-color: white;
+}
+
+
+/* fim ultimas avaliações */
+
+
+
+
+
+
+.phantom {
+    width: 130px;
+
+}
+
+
+
+
+.variados {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.variados img {
+    width: 40%;
+    border-radius: 16px;
+
+}
+
+.morgana,
+.phantomAnimacao,
+.potter {
+    display: inline-flex;
+    margin-top: 5%;
+    align-items: center;
+    border: 1px solid black;
+    background-color: #000000;
+    border-radius: 16px;
+
+}
+
+.noticia {
+    padding: 10px
+}
+
+.variados h3 {
+    color: yellow;
+}
+
+.noticia {
+    color: rgb(17, 69, 182);
+    transition: 0.25s;
+
+}
+
+.noticia:hover {
+
+    color: white;
+    background-color: rgb(235, 25, 25);
+    border-radius: 16px;
+}
+
+.sobre {
+    font-size: 140%;
+    color: white;
+    background-color: rgb(235, 25, 25);
+    border-radius: 16px;
+    padding: 10px;
+    transition: 0.25s
+}
+
+.sobre:hover,
+.editorial:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(174, 0, 255);
+    border-radius: 16px;
+
+}
+
+.editorial {
+
+    color: white;
+    background-color: rgb(235, 25, 25);
+    border-radius: 16px;
+    padding: 10px;
+    transition: 0.25s
+}
+
+i {
+
+    font-size: 300%;
+    color: rgb(255, 0, 0);
+
+    transition: 0.25s;
+
+}
+
+.rodape {
+    background-color: #000000;
+    color: red;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+
+
+}
+
+.rodape p {
+    padding-left: 50px
+}
+
+.rodape img {
+    padding-right: 50px
+}
+
+.dropdown-toggle {
+    background-color: black !important;
+    border-color: red !important;
+    color: red !important;
+}
+
+.escondido {
+    display: none !important;
+}
+
+.carregar1 {
+
+    float: right;
+    margin-top: 30px;
+    margin-right: 20px;
+    background-color: black !important;
+    border-color: red !important;
+    color: red !important;
+}
+
+.carregar2 {
+    float: right;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    background-color: black !important;
+    border-color: red !important;
+    color: red !important;
+
+}
+
+.fa-plus {
+    background-color: black !important;
+    border-color: red !important;
+    color: red !important;
+    font-size: medium;
+    padding: 0%;
+    margin: 0%;
+}
+
+.filmes_area img {
+    padding-bottom: 20px;
+}
+
+.logo {
+    width: 100px;
+    padding: auto;
+
+}
+
+
+
+
+
+nav img{width: 100px;} /* logo */
+
+
+
+.barra {
+    background-color: red;
+    color: white
+}
+
+@media (max-width: 769px) {
+    .dropdown {
+        display: none;
+    }
+
+    .lançamentos {
+        width:  10%;
+    }
+
+    .variados img {
+        display: none;
+    }
+
+    footer {
+        display: none !important;
+    }
+
+    .variados p {
+        font-size: 150%
+    }
+}
+
+
+
+
