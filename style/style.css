@@ -1,52 +1,65 @@
 body {
-    background-color: rgb(139, 18, 18) !important;
+    background-color: #171718 !important;
     width: 100%;
     margin: 0px;
     padding: 0px;
 }
 
-* {
+*, html {
     margin: 0;
     padding: 0;
 
 }
 
+/*Beggining navbar */
+.navbar-custom .navbar-brand, 
+.navbar-custom {
+	background-color: #121214;
+}
 
-/* início carrossel */
-iframe {
+.navbar-custom span.navbar-toggler-icon {
+    background-color: rgb(253, 0, 0);
+}
+
+.navbar-custom a.nav-link {
+    color: red !Important;
+}
+
+.navbar-custom .d-flex button {
+    color: red;
+    border-color: red;
+}
+
+.navbar-custom .d-flex button:hover{
+    background-color:red;
+    color: black
+}
+
+.logo {
     width: 100%;
-}
-
-
-.carrossel_area,
-.filmes_area {
-    background-color: rgb(235, 25, 25);
-    color: white;
-    border-radius: 30px;
-    transition: 0.25s;
-    padding: 20px;
-    width: 100%;
-    font-size: x-large;
+    
 
 }
 
-.carousel-inner {
-    padding: 5%;
+iframe{
+    width: 100%
 }
 
+/*end navbar */
 
-/* fim carrossel*/
 
 .lançamentos {
 
-    padding: 30px;
-    font-size: 300%;
-    color: black;
+    font-size: xx-large;
+    color: rgb(248, 0, 0);
     text-transform: uppercase;
     width: 100%;
-    animation: animate 3s linear infinite;
     text-align: center;
 
+}
+
+.Entrevistas{
+    text-align: center;
 }
 
 strong {
@@ -56,25 +69,13 @@ strong {
 
 
 #destaque {
-    animation: animate 3s linear infinite;
-    color: black;
-
+    color: rgb(255, 0, 0);
     text-transform: uppercase;
-    font-size: 300%;
+    font-size: xx-large;
 
 }
 
-.destaques {
 
-    justify-content: space-between;
-
-
-}
-
-img {
-    width: 100%;
-    height: 100%;
-}
 
 
 
@@ -345,7 +346,7 @@ i {
 }
 
 .rodape {
-    background-color: #000000;
+    background-color: #121214;
     color: red;
     justify-content: space-between;
     align-items: center;
@@ -405,24 +406,8 @@ i {
     padding-bottom: 20px;
 }
 
-.logo {
-    width: 100px;
-    padding: auto;
-
-}
-
-
-
-
-
 nav img{width: 100px;} /* logo */
 
-
-
-.barra {
-    background-color: red;
-    color: white
-}
 
 @media (max-width: 769px) {
     .dropdown {
@@ -445,7 +430,6 @@ nav img{width: 100px;} /* logo */
         font-size: 150%
     }
 }
-
 
 
 
